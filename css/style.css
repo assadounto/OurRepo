@@ -17,21 +17,14 @@ text-align: center;
 .description{
     text-align: center;
 }
-#name,#email{ 
+#name,#email,#number{ 
     padding: 10px;
     width: 40vw;
     border: none;
 }
-.name{
-    margin: 20px;
-}
-.email{
-    margin: 20px;
 
-}
-.age{
-    margin: 20px;
-
+.name,.email,.age{
+    margin-bottom: 20px;
 }
 .country{
 

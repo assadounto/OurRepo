@@ -8,8 +8,22 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World We are software developers</h1>
+    <h1 id="title">Hello World We are software developers</h1>
+    <p id="description"> This is the survey form of Richmond and Queeniva</p>
     
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input id="name" placeholder="Enter Your Name">
+      <label id="email-label">email:</label>
+      <input id="email" type="email" placeholder="Enter Your Email" >
+      <label id="number-label">Age:</label>
+      <input id="number" type="number" min="1" max="20" placeholder="Enter Your Number" >
+      <label>please choose country:</label>
+      <input type="dropdown" id="dropdown" placeholder="select country" >
+      <input type="radio">
+
+    </form>
+
     <script  src="js/index.js"></script>
   </body>
 </html>

@@ -12,9 +12,11 @@ form{
 }
 
 .title{
-
+text-align: center;
 }
-.description{}
+.description{
+    text-align: center;
+}
 .name{}
 .email{}
 .age{}

@@ -49,11 +49,13 @@ min-height: 120px;
   resize: vertical;
 }
 .submit-button{
-    display: block;
+display: block;
   width: 100%;
   padding: 0.75rem;
-  background: var(--color-green);
+  background:yellow;
   color: inherit;
-  border-radius: 2px;
+  border-radius: 5px;
   cursor: pointer;
+  border: none;
+  margin-top: 10px;
 }
